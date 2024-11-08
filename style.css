@@ -10,7 +10,7 @@ main {
     width: 100vw;
     min-height: 100vh;
     display: flex;
-    flex-direction: column;
+    flex-direction: column; /* this is useful to change the orientation of the flex and make sure the elements in the page are flexing vertically and thus, the attribution won't show up on the side, but instead underneath the card */
     align-items: center;
     justify-content: center;
 }
